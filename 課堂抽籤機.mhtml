@@ -1,0 +1,524 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://127.0.0.1:5500/index.html
+Subject: =?utf-8?Q?=E8=AA=B2=E5=A0=82=E6=8A=BD=E7=B1=A4=E6=A9=9F?=
+Date: Sun, 01 Nov 2026 14:03:09 GMT
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--gyTaS8oUTlfc6UWy1GsihKSd9Ok48zCyxfEC6UAcHf----"
+
+
+------MultipartBoundary--gyTaS8oUTlfc6UWy1GsihKSd9Ok48zCyxfEC6UAcHf----
+Content-Type: text/html
+Content-ID: <frame-1669C922596FEC5386BFFDD8A0DAFCB1@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://127.0.0.1:5500/index.html
+
+<!DOCTYPE html><html lang=3D"zh-Hant"><head><meta http-equiv=3D"Content-Typ=
+e" content=3D"text/html; charset=3DUTF-8">
+   =20
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+
+    <title>=E8=AA=B2=E5=A0=82=E6=8A=BD=E7=B1=A4=E6=A9=9F</title>
+
+    <link rel=3D"stylesheet" type=3D"text/css" href=3D"http://127.0.0.1:550=
+0/style.css">
+
+   =20
+  </head>
+
+  <body>
+   =20
+  <!-- Code injected by live-server -->
+
+
+
+<main><canvas id=3D"defaultCanvas0" class=3D"p5Canvas confetti-canvas" widt=
+h=3D"2560" height=3D"1262" style=3D"width: 1280px; height: 631px;"></canvas=
+></main><main class=3D"app-shell">
+    <header class=3D"page-header">
+      <div class=3D"brand-mark" aria-hidden=3D"true">=E2=9C=A6</div>
+      <div>
+        <p class=3D"eyebrow">CLASSROOM RANDOM PICKER</p>
+        <h1>=E8=AA=B2=E5=A0=82=E6=8A=BD=E7=B1=A4=E6=A9=9F</h1>
+        <p class=3D"subtitle">=E5=85=AC=E5=B9=B3=E6=8A=BD=E9=81=B8=E6=AF=8F=
+=E4=B8=80=E4=BD=8D=EF=BC=8C=E8=AE=93=E8=AA=B2=E5=A0=82=E4=BA=92=E5=8B=95=E6=
+=9B=B4=E6=9C=89=E8=B6=A3=E3=80=82</p>
+      </div>
+    </header>
+
+    <div class=3D"workspace">
+      <section class=3D"panel setup-panel" aria-labelledby=3D"setup-title">
+        <div class=3D"panel-heading">
+          <div>
+            <p class=3D"section-label">STEP 01</p>
+            <h2 id=3D"setup-title">=E8=A8=AD=E5=AE=9A=E6=8A=BD=E7=B1=A4=E5=
+=90=8D=E5=96=AE</h2>
+          </div>
+          <span class=3D"heading-icon" aria-hidden=3D"true">=E2=98=B7</span=
+>
+        </div>
+
+        <div class=3D"mode-switch" role=3D"group" aria-label=3D"=E6=8A=BD=
+=E7=B1=A4=E6=A8=A1=E5=BC=8F">
+          <button class=3D"mode-button active" id=3D"number-mode" type=3D"b=
+utton" aria-pressed=3D"true">
+            <span aria-hidden=3D"true">#</span> =E8=99=9F=E7=A2=BC=E6=A8=A1=
+=E5=BC=8F
+          </button>
+          <button class=3D"mode-button" id=3D"name-mode" type=3D"button" ar=
+ia-pressed=3D"false">
+            <span aria-hidden=3D"true">Aa</span> =E5=A7=93=E5=90=8D=E6=A8=
+=A1=E5=BC=8F
+          </button>
+        </div>
+
+        <div id=3D"number-fields" class=3D"number-fields">
+          <label class=3D"field-label" for=3D"range-start">=E6=8A=BD=E9=81=
+=B8=E8=99=9F=E7=A2=BC=E7=AF=84=E5=9C=8D</label>
+          <div class=3D"range-inputs">
+            <label class=3D"number-field">
+              <span>=E5=BE=9E</span>
+              <input id=3D"range-start" type=3D"number" value=3D"1" step=3D=
+"1" inputmode=3D"numeric" aria-label=3D"=E8=B5=B7=E5=A7=8B=E8=99=9F=E7=A2=
+=BC">
+            </label>
+            <span class=3D"range-divider" aria-hidden=3D"true">=E2=80=94</s=
+pan>
+            <label class=3D"number-field">
+              <span>=E5=88=B0</span>
+              <input id=3D"range-end" type=3D"number" value=3D"30" step=3D"=
+1" inputmode=3D"numeric" aria-label=3D"=E7=B5=90=E6=9D=9F=E8=99=9F=E7=A2=BC=
+">
+            </label>
+          </div>
+        </div>
+
+       =20
+
+        <div class=3D"field-group">
+          <label class=3D"field-label" for=3D"excluded">=E6=8E=92=E9=99=A4=
+=E5=B0=8D=E8=B1=A1 <span class=3D"field-hint">=E9=81=B8=E5=A1=AB=EF=BC=8C=
+=E4=BB=A5=E9=80=97=E8=99=9F=E5=88=86=E9=9A=94</span></label>
+          <input id=3D"excluded" type=3D"text" placeholder=3D"=E4=BE=8B=E5=
+=A6=82=EF=BC=9A5, 12 =E6=88=96 =E7=8E=8B=E5=B0=8F=E6=98=8E">
+        </div>
+
+        <div class=3D"draw-options">
+          <label class=3D"field-label" for=3D"draw-count">=E6=AF=8F=E6=AC=
+=A1=E6=8A=BD=E5=87=BA</label>
+          <div class=3D"draw-count-row">
+            <input id=3D"draw-count" type=3D"number" min=3D"1" step=3D"1" v=
+alue=3D"1" inputmode=3D"numeric" aria-label=3D"=E6=AF=8F=E6=AC=A1=E6=8A=BD=
+=E5=87=BA=E4=BA=BA=E6=95=B8">
+            <span>=E4=BD=8D</span>
+          </div>
+        </div>
+
+        <label class=3D"repeat-option" for=3D"no-repeat">
+          <span class=3D"toggle-copy">
+            <strong>=E4=B8=8D=E9=87=8D=E8=A4=87=E6=8A=BD=E7=B1=A4</strong>
+            <small>=E6=8A=BD=E9=81=8E=E7=9A=84=E5=B0=8D=E8=B1=A1=E4=B8=8D=
+=E6=9C=83=E5=86=8D=E6=AC=A1=E5=87=BA=E7=8F=BE</small>
+          </span>
+          <span class=3D"toggle">
+            <input id=3D"no-repeat" type=3D"checkbox">
+            <span class=3D"toggle-track" aria-hidden=3D"true"></span>
+          </span>
+        </label>
+
+        <div class=3D"availability" aria-live=3D"polite">
+          <span class=3D"availability-dot" aria-hidden=3D"true"></span>
+          <span id=3D"availability-text">=E5=8F=AF=E6=8A=BD 30 =E4=BD=8D</s=
+pan>
+        </div>
+      </section>
+
+      <section class=3D"panel draw-panel" aria-labelledby=3D"draw-title">
+        <div class=3D"panel-heading">
+          <div>
+            <p class=3D"section-label">STEP 02</p>
+            <h2 id=3D"draw-title">=E6=BA=96=E5=82=99=E5=A5=BD=E4=BA=86=E5=
+=97=8E=EF=BC=9F</h2>
+          </div>
+          <span class=3D"heading-icon sparkle" aria-hidden=3D"true">=E2=9C=
+=A7</span>
+        </div>
+
+        <div class=3D"stage" aria-live=3D"polite" aria-atomic=3D"true">
+          <p class=3D"stage-caption" id=3D"stage-caption">=E5=B9=B8=E9=81=
+=8B=E7=9A=84=E4=BA=BA=E6=9C=83=E6=98=AF=E2=80=A6=E2=80=A6</p>
+          <div id=3D"result" class=3D"result" aria-label=3D"=E6=8A=BD=E7=B1=
+=A4=E7=B5=90=E6=9E=9C">?</div>
+          <div id=3D"result-list" class=3D"result-list" aria-label=3D"=E6=
+=9C=AC=E6=AC=A1=E6=8A=BD=E7=B1=A4=E7=B5=90=E6=9E=9C"></div>
+        </div>
+
+       =20
+        <p id=3D"sound-status" class=3D"sound-status" aria-live=3D"polite">=
+&nbsp;</p>
+
+        <button id=3D"draw-button" class=3D"draw-button" type=3D"button">
+          <span class=3D"button-spark" aria-hidden=3D"true">=E2=9C=A6</span=
+>
+          <span id=3D"draw-button-text">=E9=96=8B=E5=A7=8B=E6=8A=BD=E7=B1=
+=A4</span>
+          <span class=3D"button-arrow" aria-hidden=3D"true">=E2=86=92</span=
+>
+        </button>
+        <p class=3D"draw-hint">=E6=8C=89=E4=B8=8B=E6=8C=89=E9=88=95=EF=BC=
+=8C=E7=9C=8B=E7=9C=8B=E4=BB=8A=E5=A4=A9=E7=9A=84=E5=B9=B8=E9=81=8B=E4=B9=8B=
+=E6=98=9F</p>
+      </section>
+    </div>
+
+    <section class=3D"panel history-panel" aria-labelledby=3D"history-title=
+">
+      <div class=3D"history-heading">
+        <div class=3D"panel-heading">
+          <div>
+            <p class=3D"section-label">PICK HISTORY</p>
+            <h2 id=3D"history-title">=E6=8A=BD=E7=B1=A4=E7=B4=80=E9=8C=84 <=
+span id=3D"history-count" class=3D"history-count">0</span></h2>
+          </div>
+        </div>
+        <button id=3D"reset-button" class=3D"reset-button" type=3D"button">
+          <span aria-hidden=3D"true">=E2=86=BB</span> =E9=87=8D=E7=BD=AE=E7=
+=B4=80=E9=8C=84
+        </button>
+      </div>
+      <div id=3D"history-empty" class=3D"history-empty">
+        <span aria-hidden=3D"true">=E2=97=B7</span>
+        <p>=E6=8A=BD=E7=B1=A4=E7=B4=80=E9=8C=84=E6=9C=83=E9=A1=AF=E7=A4=BA=
+=E5=9C=A8=E9=80=99=E8=A3=A1</p>
+      </div>
+      <ol id=3D"history-list" class=3D"history-list" aria-label=3D"=E6=8A=
+=BD=E7=B1=A4=E7=B4=80=E9=8C=84"></ol>
+    </section>
+    <footer class=3D"page-footer">=E6=AF=8F=E4=B8=80=E6=AC=A1=E6=8A=BD=E9=
+=81=B8=EF=BC=8C=E9=83=BD=E6=98=AF=E4=B8=80=E5=80=8B=E6=96=B0=E7=9A=84=E9=96=
+=8B=E5=A7=8B=E3=80=82</footer>
+  </main></body></html>
+------MultipartBoundary--gyTaS8oUTlfc6UWy1GsihKSd9Ok48zCyxfEC6UAcHf----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://127.0.0.1:5500/style.css
+
+@charset "utf-8";
+
+:root { color-scheme: dark; font-family: "Segoe UI", "Microsoft JhengHei", =
+sans-serif; background: rgb(16, 19, 29); color: rgb(245, 244, 241); font-sy=
+nthesis: none; text-rendering: optimizelegibility; --surface: #191d29; --su=
+rface-soft: #202534; --text: #f5f4f1; --muted: #9da3b3; --accent: #ffca67; =
+--teal: #56d6c9; --border: rgba(255, 255, 255, 0.09); }
+
+* { box-sizing: border-box; }
+
+html { min-width: 320px; min-height: 100%; background: radial-gradient(at 9=
+% 0%, rgba(87, 100, 160, 0.15), transparent 35rem), radial-gradient(at 95% =
+35%, rgba(52, 141, 132, 0.09), transparent 30rem), rgb(16, 19, 29); }
+
+body { min-width: 320px; min-height: 100vh; margin: 0px; }
+
+button, input, textarea { font: inherit; }
+
+button { color: inherit; }
+
+.app-shell { position: relative; z-index: 1; width: min(1120px, 100% - 56px=
+); margin: 0px auto; padding: 48px 0px 25px; }
+
+.page-header { display: flex; align-items: center; gap: 20px; margin-bottom=
+: 32px; }
+
+.brand-mark { display: grid; width: 64px; height: 64px; flex: 0 0 64px; pla=
+ce-items: center; border: 1px solid rgba(255, 202, 103, 0.35); border-radiu=
+s: 20px; background: linear-gradient(145deg, rgba(255, 202, 103, 0.2), rgba=
+(255, 202, 103, 0.04)); color: var(--accent); font-size: 34px; box-shadow: =
+rgba(255, 202, 103, 0.08) 0px 10px 40px; }
+
+.eyebrow, .section-label { margin: 0px 0px 7px; color: var(--teal); font-si=
+ze: 11px; font-weight: 800; letter-spacing: 0.17em; }
+
+h1, h2, p { margin-top: 0px; }
+
+h1 { margin-bottom: 4px; font-size: clamp(32px, 4vw, 43px); font-weight: 90=
+0; letter-spacing: 0.03em; line-height: 1.15; }
+
+.subtitle { margin: 0px; color: var(--muted); font-size: 15px; }
+
+.workspace { display: grid; grid-template-columns: minmax(0px, 0.95fr) minm=
+ax(0px, 1.05fr); gap: 20px; }
+
+.panel { border: 1px solid var(--border); border-radius: 22px; background: =
+linear-gradient(145deg, rgba(31, 36, 51, 0.97), rgba(24, 28, 40, 0.98)); bo=
+x-shadow: rgba(0, 0, 0, 0.16) 0px 22px 65px; }
+
+.setup-panel, .draw-panel { min-height: 500px; padding: 27px 30px; }
+
+.panel-heading, .history-heading { display: flex; align-items: flex-start; =
+justify-content: space-between; }
+
+.panel-heading h2 { margin: 0px; font-size: 21px; font-weight: 800; }
+
+.panel-heading .section-label { margin-bottom: 6px; }
+
+.heading-icon { display: grid; width: 42px; height: 42px; place-items: cent=
+er; border-radius: 14px; background: rgba(86, 214, 201, 0.1); color: var(--=
+teal); font-size: 24px; }
+
+.heading-icon.sparkle { background: rgba(255, 202, 103, 0.1); color: var(--=
+accent); font-size: 27px; }
+
+.mode-switch { display: grid; grid-template-columns: 1fr 1fr; gap: 5px; mar=
+gin: 24px 0px 21px; padding: 5px; border: 1px solid var(--border); border-r=
+adius: 13px; background: rgb(20, 23, 33); }
+
+.mode-button { min-height: 45px; border: 0px; border-radius: 9px; backgroun=
+d: transparent; color: var(--muted); cursor: pointer; font-size: 15px; font=
+-weight: 700; transition: background 160ms, color 160ms; }
+
+.mode-button span { margin-right: 5px; font-size: 14px; font-weight: 900; }
+
+.mode-button.active { background: rgb(42, 48, 64); color: var(--text); box-=
+shadow: rgba(0, 0, 0, 0.15) 0px 3px 12px; }
+
+.field-label { display: block; margin-bottom: 9px; color: rgb(231, 232, 235=
+); font-size: 14px; font-weight: 700; }
+
+.field-hint { margin-left: 6px; color: rgb(133, 139, 155); font-size: 12px;=
+ font-weight: 400; }
+
+.range-inputs { display: flex; align-items: center; gap: 12px; }
+
+.number-field { display: flex; height: 54px; flex: 1 1 0%; align-items: cen=
+ter; gap: 9px; padding: 0px 14px; border: 1px solid var(--border); border-r=
+adius: 12px; background: rgb(21, 25, 35); color: var(--muted); font-size: 1=
+3px; }
+
+.number-field input { width: 100%; min-width: 0px; border: 0px; outline: 0p=
+x; background: transparent; color: var(--text); font-size: 20px; font-weigh=
+t: 700; }
+
+.range-divider { color: rgb(111, 118, 134); }
+
+.name-fields textarea, .field-group > input { width: 100%; border: 1px soli=
+d var(--border); border-radius: 12px; outline: none; background: rgb(21, 25=
+, 35); color: var(--text); font-size: 16px; transition: border-color 150ms,=
+ box-shadow 150ms; }
+
+.name-fields textarea { min-height: 142px; padding: 13px 15px; line-height:=
+ 1.7; resize: vertical; }
+
+.field-group > input { height: 49px; padding: 0px 14px; }
+
+input:focus, textarea:focus { border-color: rgba(86, 214, 201, 0.65); box-s=
+hadow: rgba(86, 214, 201, 0.08) 0px 0px 0px 3px; }
+
+input::placeholder, textarea::placeholder { color: rgb(116, 123, 139); }
+
+.save-note { display: flex; align-items: center; gap: 7px; margin: 8px 0px =
+0px; color: rgb(146, 152, 167); font-size: 12px; }
+
+.save-dot, .availability-dot { width: 7px; height: 7px; flex: 0 0 7px; bord=
+er-radius: 50%; background: var(--teal); }
+
+.field-group { margin-top: 21px; }
+
+.draw-options { display: flex; align-items: center; justify-content: space-=
+between; margin-top: 20px; }
+
+.draw-options .field-label { margin: 0px; }
+
+.draw-count-row { display: flex; align-items: center; gap: 8px; color: var(=
+--muted); }
+
+.draw-count-row input { width: 76px; height: 42px; border: 1px solid var(--=
+border); border-radius: 10px; outline: none; background: rgb(21, 25, 35); c=
+olor: var(--text); text-align: center; font-size: 18px; font-weight: 700; }
+
+.repeat-option { display: flex; align-items: center; justify-content: space=
+-between; margin-top: 17px; padding: 13px 14px; border: 1px solid var(--bor=
+der); border-radius: 13px; background: rgba(255, 255, 255, 0.024); cursor: =
+pointer; }
+
+.toggle-copy { display: flex; flex-direction: column; gap: 3px; }
+
+.toggle-copy strong { font-size: 14px; }
+
+.toggle-copy small { color: var(--muted); font-size: 12px; }
+
+.toggle { position: relative; display: inline-flex; width: 47px; height: 27=
+px; flex: 0 0 47px; }
+
+.toggle input { position: absolute; width: 100%; height: 100%; margin: 0px;=
+ opacity: 0; cursor: pointer; }
+
+.toggle-track { position: absolute; inset: 0px; border: 1px solid rgba(255,=
+ 255, 255, 0.11); border-radius: 99px; background: rgb(53, 58, 72); pointer=
+-events: none; transition: background 150ms; }
+
+.toggle-track::after { position: absolute; top: 3px; left: 3px; width: 19px=
+; height: 19px; border-radius: 50%; background: rgb(243, 243, 242); content=
+: ""; transition: transform 150ms; }
+
+.toggle input:checked + .toggle-track { background: rgb(49, 159, 148); }
+
+.toggle input:checked + .toggle-track::after { transform: translateX(20px);=
+ }
+
+.toggle input:focus-visible + .toggle-track { outline: rgba(86, 214, 201, 0=
+.4) solid 3px; outline-offset: 3px; }
+
+.availability { display: flex; align-items: center; gap: 9px; margin-top: 1=
+5px; color: rgb(197, 203, 212); font-size: 14px; font-weight: 600; }
+
+.draw-panel { display: flex; flex-direction: column; }
+
+.stage { display: flex; min-height: 248px; flex: 1 1 0%; flex-direction: co=
+lumn; align-items: center; justify-content: center; margin: 15px 0px 4px; p=
+adding: 22px 10px; border: 1px solid rgba(255, 255, 255, 0.055); border-rad=
+ius: 18px; background: radial-gradient(rgba(86, 214, 201, 0.075), transpare=
+nt 62%), rgb(23, 27, 39); text-align: center; }
+
+.stage-caption { margin: 0px 0px 10px; color: rgb(164, 170, 186); font-size=
+: 15px; font-weight: 500; }
+
+.stage-caption.rolling { color: var(--accent); }
+
+.result { max-width: 100%; overflow-wrap: anywhere; color: var(--accent); f=
+ont-size: clamp(56px, 7vw, 82px); font-weight: 900; letter-spacing: 0.01em;=
+ line-height: 1.18; text-shadow: rgba(255, 202, 103, 0.14) 0px 5px 35px; }
+
+.result-final { animation: 500ms cubic-bezier(0.16, 1, 0.3, 1) 0s 1 normal =
+both running reveal-result; }
+
+.result-list { display: flex; flex-wrap: wrap; justify-content: center; gap=
+: 8px; margin-top: 12px; }
+
+.result-chip { padding: 7px 13px; border: 1px solid rgba(255, 202, 103, 0.3=
+); border-radius: 99px; background: rgba(255, 202, 103, 0.1); color: rgb(25=
+5, 226, 166); font-size: 16px; font-weight: 700; animation: 300ms ease 0s 1=
+ normal both running reveal-result; }
+
+.error-message { margin: 8px 0px 0px; padding: 11px 13px; border: 1px solid=
+ rgba(255, 107, 107, 0.35); border-radius: 10px; background: rgba(255, 107,=
+ 107, 0.09); color: rgb(255, 170, 170); font-size: 14px; line-height: 1.5; =
+}
+
+.sound-status { min-height: 18px; margin: 5px 0px 4px; color: rgb(168, 183,=
+ 182); text-align: center; font-size: 12px; }
+
+.draw-button { display: flex; width: 100%; min-height: 64px; align-items: c=
+enter; justify-content: center; gap: 12px; border: 0px; border-radius: 15px=
+; background: linear-gradient(100deg, rgb(248, 189, 86), rgb(255, 215, 125)=
+); color: rgb(39, 32, 20); cursor: pointer; font-size: 20px; font-weight: 9=
+00; box-shadow: rgba(255, 202, 103, 0.17) 0px 10px 28px; transition: transf=
+orm 150ms, filter 150ms, box-shadow 150ms; }
+
+.draw-button:hover:not(:disabled) { transform: translateY(-2px); filter: br=
+ightness(1.05); box-shadow: rgba(255, 202, 103, 0.24) 0px 13px 35px; }
+
+.draw-button:active:not(:disabled) { transform: translateY(0px); }
+
+.draw-button:focus-visible, .mode-button:focus-visible, .reset-button:focus=
+-visible { outline: rgba(86, 214, 201, 0.7) solid 3px; outline-offset: 3px;=
+ }
+
+.draw-button:disabled { cursor: wait; filter: saturate(0.7); }
+
+.button-spark { font-size: 18px; }
+
+.button-arrow { font-size: 23px; font-weight: 500; }
+
+.draw-hint { margin: 11px 0px 0px; color: rgb(131, 137, 154); text-align: c=
+enter; font-size: 12px; }
+
+.history-panel { margin-top: 20px; padding: 23px 30px 21px; }
+
+.history-heading { align-items: center; }
+
+.history-heading .panel-heading h2 { display: flex; align-items: center; ga=
+p: 9px; }
+
+.history-count { display: inline-grid; min-width: 25px; height: 25px; place=
+-items: center; padding: 0px 6px; border-radius: 99px; background: rgb(42, =
+48, 64); color: rgb(203, 208, 217); font-size: 12px; }
+
+.reset-button { padding: 9px 13px; border: 1px solid var(--border); border-=
+radius: 10px; background: rgb(32, 37, 52); color: rgb(208, 211, 218); curso=
+r: pointer; font-size: 13px; font-weight: 600; transition: background 150ms=
+; }
+
+.reset-button:hover { background: rgb(42, 48, 64); }
+
+.reset-button span { margin-right: 4px; color: var(--teal); font-size: 16px=
+; }
+
+.history-empty { display: flex; min-height: 86px; flex-direction: column; a=
+lign-items: center; justify-content: center; color: rgb(133, 140, 156); }
+
+.history-empty span { margin-bottom: 5px; font-size: 20px; }
+
+.history-empty p { margin: 0px; font-size: 13px; }
+
+.history-list { display: grid; gap: 8px; margin: 17px 0px 0px; padding: 0px=
+; list-style: none; }
+
+.history-item { display: flex; min-height: 48px; align-items: center; gap: =
+13px; padding: 8px 13px; border: 1px solid rgba(255, 255, 255, 0.055); bord=
+er-radius: 11px; background: rgba(255, 255, 255, 0.024); }
+
+.history-index { color: var(--teal); font-size: 12px; font-weight: 800; }
+
+.history-names { flex: 1 1 0%; overflow-wrap: anywhere; font-size: 15px; fo=
+nt-weight: 700; }
+
+.history-time { color: rgb(133, 140, 156); font-size: 12px; font-variant-nu=
+meric: tabular-nums; }
+
+.page-footer { padding-top: 19px; color: rgb(114, 121, 138); text-align: ce=
+nter; font-size: 12px; letter-spacing: 0.05em; }
+
+.confetti-canvas { position: fixed; z-index: 5; inset: 0px; display: block;=
+ pointer-events: none; }
+
+[hidden] { display: none !important; }
+
+@keyframes reveal-result {=20
+  0% { transform: scale(0.72); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@media (max-width: 760px) {
+  .app-shell { width: min(600px, 100% - 32px); padding-top: 28px; }
+  .page-header { gap: 14px; margin-bottom: 22px; }
+  .brand-mark { width: 52px; height: 52px; flex-basis: 52px; border-radius:=
+ 16px; font-size: 28px; }
+  .subtitle { font-size: 13px; }
+  .workspace { grid-template-columns: 1fr; gap: 14px; }
+  .setup-panel, .draw-panel { min-height: 0px; padding: 22px; }
+  .draw-panel { min-height: 440px; }
+  .stage { min-height: 235px; }
+  .result { font-size: clamp(54px, 14vw, 76px); }
+  .history-panel { margin-top: 14px; padding: 20px 22px; }
+}
+
+@media (max-width: 420px) {
+  .app-shell { width: calc(100% - 24px); padding-top: 22px; }
+  .brand-mark { width: 46px; height: 46px; flex-basis: 46px; }
+  .eyebrow { font-size: 9px; }
+  h1 { font-size: 31px; }
+  .setup-panel, .draw-panel { padding: 18px; }
+  .history-panel { padding: 18px; }
+  .history-heading { gap: 8px; }
+  .reset-button { padding: 8px 9px; white-space: nowrap; }
+  .field-hint { font-size: 11px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after { scroll-behavior: auto !important; animation-durati=
+on: 0.01ms !important; animation-iteration-count: 1 !important; transition-=
+duration: 0.01ms !important; }
+}
+------MultipartBoundary--gyTaS8oUTlfc6UWy1GsihKSd9Ok48zCyxfEC6UAcHf------
